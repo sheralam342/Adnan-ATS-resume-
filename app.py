@@ -1,11 +1,3 @@
-ATS Resume Analyzer
--------------------
-Upload a resume (PDF / DOCX / TXT) and get:
-  * an ATS score (rule-based checks blended with an AI review)
-  * strengths, prioritized improvements, missing keywords and bullet rewrites
-
-UI: Streamlit  |  AI: Groq API
-
 import io
 import json
 import os
