@@ -5,7 +5,6 @@ Upload a resume (PDF / DOCX / TXT) and get:
   * strengths, prioritized improvements, missing keywords and bullet rewrites
 
 UI: Streamlit  |  AI: Groq API
-"""
 
 import io
 import json
@@ -158,7 +157,7 @@ def extract_jd_keywords(jd: str, top_n: int = 25):
 
 
 def rule_based_score(text: str, jd: str = "") -> dict:
-    """Return {'score': 0-100, 'checks': [...], 'missing_keywords': [...]}."""
+    Return {'score': 0-100, 'checks': [...], 'missing_keywords': [...]}.
     checks = []  # (label, points_earned, points_max, note)
 
     # 1. Contact information (15)
